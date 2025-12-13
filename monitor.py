@@ -30,7 +30,7 @@ BASE_URL = "https://qpalz012.pythonanywhere.com/api"
 
 HOST_ID = "1"  # "1" for first, "2" for second, etc.
 AUTH_USER2 = (f"user2_{HOST_ID}", f"password2_{HOST_ID}")
-PORT = 443  # Set your port
+PORT = 2083  # Set your port
 # Не указываем IP жёстко — определим автоматически при старте
 SERVER_IP = None  # будет заполнен determine_server_ip()
 MAX_USERS = 1
@@ -445,4 +445,5 @@ if __name__ == "__main__":
         stop_event.set()
     finally:
         logger.info("Monitor shutting down")
+
         sys.exit(0)
