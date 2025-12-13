@@ -1,0 +1,6 @@
+Flask
+flask-httpauth
+werkzeug
+requests
+pyTelegramBotAPI
+schedule
